@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url("artwork-deer-antlers-forest-wallpaper-preview.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .wrapper {
+    background: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 400px;
+    padding: 30px 40px;
+    border-radius: 20px;
+  }
+  .header {
+    padding: 0 0 16px;
+  }
+  .wrapper p {
+    font-size: 15px;
+    opacity: 0.8;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .wrapper h2 {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 8px;
+  }
+  
+  .wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(168, 159, 159, 0.349);
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 20px 45px 20px 20px;
+    color: #333;
+  }
+  
+  .input-box input::placeholder {
+    color: #333;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  
+  .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+    font-size: 14.5px;
+  }
+  
+  .remember-forget label input {
+    accent-color: #775757;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  
+  .remember-forget a {
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .remember-forget a:hover {
+    text-decoration: underline;
+  }
+  
+  .wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgba(168, 159, 159, 0.349);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .wrapper .register-link {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0px 15px;
+  }
+  
+  .register-link p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
+  
+  .other-login {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.4;
+    padding: 20px 0px;
+  }
+  .other-login::before {
+    content: "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯";
+  }
+  .other-login::after {
+    content: "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯";
+  }
+  .list-login {
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .clause p {
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  
+  .nav {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 0 30px;
+  }
+  .nav a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: 600;
+  }
+  .nav a:hover {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #ff5b00;
+    color: #ff5b00;
+    font-weight: 600;
+  }
+  
+  .dropdown-list {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(168, 159, 159, 0.349);
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 0 20px;
+    color: #333;
+    margin-top: 20px;
+    appearance: none;
+  }
+  
